@@ -15,7 +15,7 @@ import image10 from '../assets/images/bg.png'
 
 function MainContent() {
   return (
-    <div className='mt-5 bg-white p-5'>
+    <div className='mt-5 bg-white p-1 sm:p-5'>
          <div className='flex flex-col items-center gap-5'>
 
           <div className='text-center'>
@@ -118,10 +118,10 @@ function MainContent() {
 
 
 
-                  <div className='grid grid-cols-3 gap-3 mt-10 mb-20'>
+                  <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mt-10 mb-20'>
                          <div className='flex flex-col gap-3 bg-[#fce1e5] rounded-lg p-5 shadow'>
                              <h3 className='font-semibold'>Meeting Transcription</h3>
-                             <p className='w-[200px] text-gray-600'>Captures real-time meeting discussions</p>
+                             <p className='w-full sm:w-[200px] text-gray-600'>Captures real-time meeting discussions</p>
                          </div>
 
                          <div className='flex flex-col gap-3 bg-[#eaeaf8] rounded-lg p-5 shadow'>
